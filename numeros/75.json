@@ -1,0 +1,40 @@
+{
+  "numero": "75",
+  "fecha":"Octubre 2020",
+  "id_google":{
+                "img":"1dcYkzj2cCZvoD8D6wpvF8cGkwT5AS3mB",
+                "pdf":"1-ngVoly9tLirhxTBUh9sReOFrrU5fGcO"
+              },
+  "articulos":[
+                {
+                  "articulo": "\"Orfeo en el limbo de las películas mediocres\"",
+                  "autor": "Laura Valeria Cozzo",
+                  "pagina": "3",
+		              "pelicula": "Parking (1985)"
+                },
+                {
+                  "articulo": "\"Sobre el desfasaje obra-espectador\"",
+                  "autor": "Franco Denápole",
+                  "pagina": "7",
+		              "pelicula": "The invisible Man (1933)"
+                },
+                {
+                  "articulo": "\"Historia de un ascenso\"",
+                  "autor": "Mex Faliero",
+                  "pagina": "10",
+		              "pelicula": "The White Tiger (2021)"
+                },
+                {
+                  "articulo": "\"Manifiesto, de Alejandro Rath, o la revolución del arte sobre el plasma\"",
+                  "autor": "Flavia Mertehikian",
+                  "pagina": "14",
+		              "pelicula": "Manifiesto (2019)"
+                },
+                {
+                  "articulo": "\"Metamorfosis: Howl’s moving castle de Hayao Miyazaki\"",
+                  "autor": "Florencia Montenegro",
+                  "pagina": "18",
+		              "pelicula": "Hauru no Ugoku Shiro (2004)"
+                }
+  ]
+}

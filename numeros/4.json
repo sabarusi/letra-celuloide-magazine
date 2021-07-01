@@ -1,0 +1,40 @@
+{
+  "numero": "4",
+  "fecha":"Mayo 2008",
+  "id_google":{
+                "img":"1rAxM0Q_HZ4qePhdJQayuFuu7LsT_tPNg",
+                "pdf":"1PePY3Uj5pk_MCDb2Hqd-bau2MpW4T05i"
+              },
+  "articulos":[
+                {
+                  "articulo": "\"Ambiente y razón\"",
+                  "autor": "Rosalía Baltar",
+                  "pagina": "4",
+		              "pelicula": "Pantaleón y las visitadoras (1999)"
+                },
+                {
+                  "articulo": "\"No hago más que olvidarte\"",
+                  "autor": "Daniela Espejo",
+                  "pagina": "7",
+		              "pelicula": "El pasado (2007)"
+                },
+                {
+                  "articulo": "\"Entre la denuncia social y el erotismo\"",
+                  "autor": "Daniel Nimes",
+                  "pagina": "11",
+		              "pelicula": "El trueno entre las hojas (1956)"
+                },
+                {
+                  "articulo": "\"¿Cómo puede uno transformarse en poeta?\"",
+                  "autor": "Verónica Ruiz",
+                  "pagina": "14",
+		              "pelicula": "El cartero (1995)"
+                },
+                {
+                  "articulo": "\"Las grietas de la memoria\"",
+                  "autor": "Gabriela Tineo",
+                  "pagina": "17",
+		              "pelicula": "Antes que anochezca (2000)"
+                }
+  ]
+}

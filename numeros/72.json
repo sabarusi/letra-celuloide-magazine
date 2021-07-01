@@ -1,0 +1,34 @@
+{
+  "numero": "72",
+  "fecha":"Agosto 2020",
+  "id_google":{
+                "img":"16OlR_enclD_ABHeLrtUbcVxZRcBdzseS",
+                "pdf":"1M9EyphGtPKDiebHXNAvyaIJYfP4EpxeG"
+              },
+  "articulos":[
+                {
+                  "articulo": "\"Mujercitas: El sí de las niñas\"",
+                  "autor": "Gabriel Cabrejas",
+                  "pagina": "4",
+		             "pelicula": "Little Women (2019)"
+                },
+                {
+                  "articulo": "\"Es la historia de un amor como no hay otro igual...\"",
+                  "autor": "Laura Valeria Cozzo",
+                  "pagina": "10",
+		              "pelicula": "L’Éternel Retour (1943)"
+                },
+                {
+                  "articulo": "",
+                  "autor": "Mauricio Espil",
+                  "pagina": "13",
+		              "pelicula": "Quién mató a Walter Benjamin (2005)"
+                },
+                {
+                  "articulo" : "\"Sé mi víctima. Algunos apuntes en torno a Candyman\"",
+                  "autor": "Marcos Ojea",
+                  "pagina": "16",
+		              "pelicula": "Candyman (1992)"
+                }
+  ]
+}

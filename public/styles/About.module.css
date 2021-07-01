@@ -1,0 +1,63 @@
+.container{
+    display:flex;
+    flex-direction:column;
+    font-size:1.2rem;
+    font-family:"Open Sans";
+    max-width:100%;
+}
+.desktop_container{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    padding-left:40px;
+    padding-right:40px;
+}
+.desc{
+    display:block;
+    text-align:justify;
+    max-width:70%;
+}
+.mobile_logo{
+    display:flex;
+    max-width:max-content;
+    border-radius:50%;
+}
+.mobile_logo img{
+    width:15vw;
+}
+.mobile_text{
+    display:none;
+}
+main{
+    padding-top:10px;
+}
+
+@media screen and (max-width:720px){
+    .desktop_container{
+        padding-left:0px;
+        padding-right:0px;
+    }
+    .mobile_text{
+        display:block;
+        max-width:30ch;
+        text-align:center;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .mobile_text h1{
+        display:none;
+    }
+    .mobile_logo{
+        display:none;
+    }
+    .desc{
+        max-width:90%;
+    }
+}
+
+@media screen and (max-width:500px){
+    .mobile_text h1{
+        font-family:"Bebas Neue"!important;
+        font-size: 2.5rem;
+    }
+}

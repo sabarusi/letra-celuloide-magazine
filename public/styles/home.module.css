@@ -1,0 +1,74 @@
+.grilla-contenido{
+    background-color: #050505;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding-left:50px;
+    padding-right:50px;
+    padding-bottom: 20px;
+}
+
+.imagen-numero{
+    height:39.50vw;
+    width:28vw;
+    display:block;
+    background-size: 90% 90%;
+    background-position:center;
+    background-repeat:no-repeat;
+    position:relative;
+    overflow:hidden;
+}
+@media only screen and (max-width:1025px){
+    .imagen-numero{
+        height:56.5vh;
+        width:40vh;
+    }
+}
+
+@media only screen and (min-width:700px){
+.imagen-numero.hover:hover{
+    background-size:scale-down;
+}
+.imagen-numero.hover:hover .text-numero{
+    background-color:rgba(5,5,5,0.9);
+    color: #050505;
+    visibility:visible;
+  }
+.text-numero span{
+    padding:20px;
+}
+}
+
+.text-numero{
+    padding-top:40px;
+    width:100%; height:100%;
+    font-size:1rem;
+    display:block;
+    justify-content:center;
+    color:transparent;
+    visibility:hidden;
+    cursor:pointer;
+    transition: color 0.5s, background-color 0.5s;
+}
+.text-numero:after{
+    content:'';
+    width:1px; height:100%;
+    vertical-align:middle;
+    display:inline-block;
+}
+
+.text-numero span{
+    margin:0;
+    display:inline-block;
+    vertical-align:middle;
+    text-align:justify;
+    color:white;
+    font-family:'Open Sans';
+    padding-left:40px;
+    padding-right:40px;
+}
+.text-numero span:first-child{
+    text-align:center!important;
+    font-size:1.05rem;
+    width:80%;
+}

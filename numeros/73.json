@@ -1,0 +1,46 @@
+{
+  "numero": "73",
+  "fecha":"Octubre 2020",
+  "id_google":{
+                "img":"1u5UOXSu4DUj46apHE7y2P0vbrMY9Y6aq",
+                "pdf":"166RokPZQ_9vBtS5nLAwl0XIsPnGVEZrL"
+              },
+  "articulos":[
+                {
+                  "articulo": "",
+                  "autor": "Milagros Arla",
+                  "pagina": "4",
+		              "pelicula": "Como agua para chocolate (1992)"
+                },
+                {
+                  "articulo":"\"Juana Bignozzi: así en la poesía como en el cine\"",
+                  "autor": "Flavia Mertehikian",
+                  "pagina": "7",
+		              "pelicula": "Las poetas visitan a Juana Bignozzi (1992)"
+                },
+                {
+                  "articulo": "\"It’s to late to try\"",
+                  "autor": "Julián Perez",
+                  "pagina": "11",
+		              "pelicula": "The Long Goodbye (1973)"
+                },
+                {
+                  "articulo": "\"De fanfic a bestseller: After y el camino de la literatura digital hacia la pantalla grande\"",
+                  "autor": "Emilia Oriana Pozzoni",
+                  "pagina": "17",
+		              "pelicula": "After (2019)"
+                },
+                {
+                  "articulo": "\"De Sade a Epstein, de Netflix a los Collages: a propósito del desmontaje simbólico sobre las utopias del poder en Jeffrey Epistein: filthy rich\"",
+                  "autor": "Juan Salandro",
+                  "pagina": "22",
+		              "pelicula": "Jeffrey Epstein: Filthy Rich (2020)"
+                },
+                {
+                  "articulo": "\"La elegía de la juventud\"",
+                  "autor": "Alejandro Stupis",
+                  "pagina": "27",
+		              "pelicula": "Le Feu follet (1963)"
+                }
+  ]
+}

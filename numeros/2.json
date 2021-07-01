@@ -1,0 +1,46 @@
+{
+  "numero": "2",
+  "fecha":"Enero 2008",
+  "id_google":{
+                "img":"1dqF_lgHmxHihLoNVipZNyi6_Kj8TJO07",
+                "pdf":"1s34giay9tq4or-_w4L8Ly0nASYwj6NDD"
+              },
+  "articulos":[
+                {
+                  "articulo": "\"Senso (o Livia, un amor desesperado)\"", 
+                  "autor": "Gonzalo Aguilar",
+                  "pagina": "4",
+		              "pelicula": "Senso (1954)"
+                },
+                {
+                  "articulo": "\"Introspección y política: dos versiones de Macbeth\"",
+                  "autor": "Rosalía Baltar",
+                  "pagina": "7",
+		              "pelicula": "Throne of Blood (1957) y Macbeth (1971)"
+                },
+                {
+                  "articulo": "",
+                  "autor": "María Coira",
+                  "pagina": "10",
+		              "pelicula": "The Children's Hour (1961)"
+                },
+                {
+                  "articulo": "\"Luna de lobos: las huellas de la memoria\"",
+                  "autor": "José María Gil",
+                  "pagina": "13",
+		              "pelicula": "Luna de lobos (1987)"
+                },
+                {
+                  "articulo": "\"Corrupción en Beverly Hills (O Cuando un texto es transformado por otro políticamente más correcto)\"",
+                  "autor": "Analía Melonio",
+                  "pagina": "16",
+		              "pelicula":"Less than Zero (1987)"
+                },
+                {
+                  "articulo": "",
+                  "autor": "Julio Neveleff",
+                  "pagina": "19",
+		              "pelicula": "Lord Jim (1965)"
+                }
+  ]
+}

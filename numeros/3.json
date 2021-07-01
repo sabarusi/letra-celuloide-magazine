@@ -1,0 +1,46 @@
+{
+  "numero": "3",
+  "fecha":"Marzo 2008",
+  "id_google":{
+                "img":"1vTR2djj2qUKsz-KzvtFuA9fRhCN34_0m",
+                "pdf":"1egWu1hZ7TEJEoUaFz0U6ApMbov2DIfsw"
+              },
+  "articulos":[
+                {
+                  "articulo": "",
+                  "autor": "Rosalía Baltar",
+                  "pagina": "4",
+		              "pelicula": "El pecado de Julia (1947)"
+                },
+                {
+                  "articulo": "",
+                  "autor": "Leonardo Casas",
+                  "pagina": "7",
+		              "pelicula": "The Black Dahlia (2006)"
+                },
+                {
+                  "articulo": "",
+                  "autor": "Víctor Conenna",
+                  "pagina": "10",
+		              "pelicula": "Le Mépris (1963)"
+                },
+                {
+                  "articulo": "\"Beowulf, o el conflicto de la traducción\"",
+                  "autor": "Juan Ariel Gómez",
+                  "pagina": "13",
+		              "pelicula": "Beowulf (2007)"
+                },
+                {
+                  "articulo": "",
+                  "autor": "Darío Lavia",
+                  "pagina": "16",
+		              "pelicula": "Raskolnikow (1923)"
+                },
+                {
+                  "articulo": "\"El mal está adentro: Psicosis\"",
+                  "autor": "Daniel Nimes",
+                  "pagina": "19",
+		              "pelicula": "Pyscho (1960)"
+                }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "numero": "71",
+  "fecha":"Junio 2020",
+  "id_google":{
+                "img":"1baX8Bq0T-fsTgEgrDN-d9jUE7cX_yqjb",
+                "pdf":"1bornnX8k629teG-Eh-rnmNxv7F_jx-rt"
+              },
+  "articulos":[
+                {
+                  "articulo": "\"El joven y la muerte\"",
+                  "autor": "Laura Valeria Cozzo",
+                  "pagina": "4",
+		              "pelicula": "Thomas l’imposteur (1965)"
+                },
+                {
+                  "articulo": "\"Retrato de una obsesión\"",
+                  "autor": "Jose Martín",
+                  "pagina": "8",
+		              "pelicula": "Misery (1990)"
+                },
+                {
+                  "articulo": "\"La Boya, o nadar en el mar de la poesía en cuarentena\"",
+                  "autor": "Flavia Mertehikian",
+                  "pagina": "12",
+		              "pelicula": "La Boya (2018)"
+                },
+                {
+                  "articulo": "\"La voluntad de reír\"",
+                  "autor": "Matías Moscardi",
+                  "pagina": "15",
+		              "pelicula": "The Man Who Laughs (1928)"
+                },
+                {
+                  "articulo": "\"Las tensiones (estéticas, genéricas, sociales) de una época\"",
+                  "autor": "Rodrigo Martín Seijas",
+                  "pagina": "20",
+		              "pelicula": "Rosaura a las diez (1958)"
+                },
+                {
+                  "articulo": "\"Para viajar en cuarentena: El niño que domó el viento, un camino inspirador de conocimiento y rebeldía\"",
+                  "autor": "Emilia Oriana Pozzoni",
+                  "pagina": "24",
+		              "pelicula": "El niño que domó el viento (2019)"
+                }
+  ]
+}

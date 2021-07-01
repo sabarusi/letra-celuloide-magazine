@@ -1,0 +1,47 @@
+{
+  "numero": "1",
+  "fecha":"Noviembre 2007",
+  "id_google":{
+               "img":"1ToZkDhEF0HvsbbyCJvGRZrBb7CCVApiz",
+               "pdf":"1TsrhQ494OM8JK3WuH4FUhTOs2Ax9gkhc" 
+              },
+  "articulos":[
+                {
+                    "articulo": "",
+                    "autor": "Víctor Conenna",
+                    "pagina":"4",
+		                "pelicula": "Apocalypse now (1979)"
+		  
+                },
+                {
+                  "articulo": "\"Música para dos miradas\"",
+                  "autor": "Rosalía Baltar",
+                  "pagina": "7",
+		              "pelicula":"Tröllflöjten (1975)"
+                },
+                {
+                  "articulo": "",
+                  "autor": "Leonardo Casas",
+                  "pagina": "10",
+		              "pelicula": "The Cider House Rules (1999)"
+                },
+                {
+                  "articulo": "",
+                  "autor": "José María Gil",
+                  "pagina": "13",
+		              "pelicula": "Rosaura a las diez (1958)"
+                },
+                {
+                  "articulo": "",
+                  "autor": "Luciana Camaño",
+                  "pagina": "16",
+		              "pelicula": "La pianiste (2001)"
+                },
+                {
+                  "articulo": "\"El pianista: una teoría sobre la vanguardia\"",
+                  "autor": "Marta B. Ferrari",
+                  "pagina": "19",
+		              "pelicula": "El pianista (1998)"
+                }
+  ]
+}

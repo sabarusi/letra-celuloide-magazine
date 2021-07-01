@@ -1,0 +1,40 @@
+{
+  "numero": "70",
+  "fecha":"Abril 2020",
+  "id_google":{
+                "img":"19geMRHiSuhcOu7nBYghjl5K96vjuxHI_",
+                "pdf":"1xqR18OTM9qEBItBhTXumQRREQY1zdZlR"
+              },
+  "articulos":[
+                {
+                  "articulo": "\"¿Acaso una cordillera puede ser el lugar de la victoria?\"",
+                  "autor": "Isabel Abellán Chuecos",
+                  "pagina": "4",
+		              "pelicula": "El baile de la victoria (2009)"
+                },
+                {
+                  "articulo": "\"El cine y su utilidad política\"",
+                  "autor": "Franco Denápole",
+                  "pagina": "9",
+		              "pelicula": "Dark Waters (2019)"
+                },
+                {
+                  "articulo": "\"El recuerdo de los muertos puede ser un regalo o una pesadilla\"",
+                  "autor": "Ashle Ozuljevic",
+                  "pagina": "12",
+		              "pelicula": "La cifra impar (1962)"
+                },
+                {
+                  "articulo": "\"¿Cómo ser romántico en la década del 2010?\"",
+                  "autor": "Rocío Ruiz",
+                  "pagina": "16",
+		              "pelicula": "Wuthering Heights (2011)"
+                },
+                {
+                  "articulo": "\"Coronavirus y comunismo: revisitar Apocalipsis, de Stephen King/Mick Garris, en tiempos de Pandemia\"",
+                  "autor": "Juan Martín Salandro",
+                  "pagina": "21",
+		              "pelicula": "The Stand (2004)"
+                }
+  ]
+}
