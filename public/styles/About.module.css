@@ -8,9 +8,9 @@
 }
 .desktop_container{
     display:flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items:center;
-    gap:8em;
+    gap:5em;
     padding-left:40px;
     padding-right:40px;
 }
@@ -33,14 +33,17 @@ main{
     padding-top:10px;
 }
 
-/*MEDIA QUERY FOR IMAGE IN ABOUT*/
-@media screen and (min-width:1100px){
+/*MEDIA QUERY FOR IMAGE AND TEXT IN ABOUT*/
+@media screen and (min-width:1300px){
     .desktop_img{
         display:flex;
         max-width:max-content;
     }
     .desktop_img img{
         width:max(22rem,12vw);
+    }
+    .desc{
+        max-width:55%;
     }
 }
 
@@ -51,6 +54,9 @@ main{
     }
     .desktop_container{
         flex-direction:column;
+    }
+    .desc{
+        max-width:75%;
     }
     .mobile_text{
         display:block;
