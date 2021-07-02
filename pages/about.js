@@ -16,6 +16,9 @@ const About = () => {
                     <h1>La revista</h1>
                 </div>
                 <div className="desktop_container">
+                    <div className="desktop_img">
+                        <img src="/img/about.jpg"></img>
+                    </div>
                     <div className="desc"><p>Letraceluloide es una revista de cine y literatura fundada en Mar del Plata en el año 2007. Consiste en una publicación bimestral con ensayos breves de profesionales que trabajan en el campo de la cultura sobre películas basadas en textos literarios. Hasta el momento, cuenta con más de 60 números publicados.</p> </div>
                 </div>
                 <div className="mobile_text"> <p>Director General: Víctor Conenna.</p>

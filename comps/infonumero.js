@@ -11,9 +11,9 @@ const InfoNumero = ({contents}) =>{
  //parse data
   let parsedInfo = JSON.parse(contents);
  //function to open download.
- const formatoPeli = (art, peli) =>{
-                const nombre = (art === ""? art : art + " - ")
-                return <div>{nombre}<em>{peli}</em></div>
+ const formatoPeli = (art, peli,esp) =>{
+                const nombre_art = (art === ""? art : art + " - ")
+                return <div>{nombre_art}<em>{peli || esp}</em></div>
   }
   const descargaPDF = () =>{
    return window.open('https://drive.google.com/uc?export=download&id='+parsedInfo.id_google.pdf, '_blank');
@@ -21,7 +21,7 @@ const InfoNumero = ({contents}) =>{
   const indices = parsedInfo.articulos.map(item => (
                   <div className="container-articulo">
                     <div className="container-texto pagina">{item.pagina}</div>
-                    <div className="container-texto articulo">{formatoPeli(item.articulo,item.pelicula)}<b>{item.autor}</b></div>
+                    <div className="container-texto articulo">{formatoPeli(item.articulo,item.pelicula, item.especial)}<b>{item.autor}</b></div>
                   </div>
                 ));
 

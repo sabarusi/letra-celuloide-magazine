@@ -4,27 +4,28 @@
     font-size:1.2rem;
     font-family:"Open Sans";
     max-width:100%;
+    padding-bottom:20px;
 }
 .desktop_container{
     display:flex;
     justify-content: space-around;
     align-items:center;
+    gap:8em;
     padding-left:40px;
     padding-right:40px;
 }
 .desc{
     display:block;
     text-align:justify;
-    max-width:70%;
+    max-width:55%;
 }
-.mobile_logo{
-    display:flex;
-    max-width:max-content;
-    border-radius:50%;
+.desc p:first-child{
+    margin-top:10px;
 }
-.mobile_logo img{
-    width:15vw;
+.desktop_img{
+    display:none
 }
+
 .mobile_text{
     display:none;
 }
@@ -32,10 +33,24 @@ main{
     padding-top:10px;
 }
 
+/*MEDIA QUERY FOR IMAGE IN ABOUT*/
+@media screen and (min-width:1100px){
+    .desktop_img{
+        display:flex;
+        max-width:max-content;
+    }
+    .desktop_img img{
+        width:max(22rem,12vw);
+    }
+}
+
 @media screen and (max-width:720px){
     .desktop_container{
         padding-left:0px;
         padding-right:0px;
+    }
+    .desktop_container{
+        flex-direction:column;
     }
     .mobile_text{
         display:block;
@@ -47,9 +62,6 @@ main{
     .mobile_text h1{
         display:none;
     }
-    .mobile_logo{
-        display:none;
-    }
     .desc{
         max-width:90%;
     }
@@ -59,5 +71,6 @@ main{
     .mobile_text h1{
         font-family:"Bebas Neue"!important;
         font-size: 2.5rem;
+        display:block;
     }
 }
