@@ -1,85 +1,82 @@
 {
   "numero": "76",
   "fecha":"Julio 2021",
-  "id_google":{
-                "img":"1PPRZenYzyLAabGcwxa12G1VXhLQ7XQgP",
-                "pdf":"12mUAuB5zjG5G08otKHF7I3_CS9ay8dmu"
-              },
+  "dropbox_pdf":"https://www.dropbox.com/s/1ypdsb7l331x104/N%C3%BAmero%2076%20-%20Revista%20Letraceluloide.pdf",
   "articulos":[
                 {
-                  "articulo": "\"Las dos historias de El Ciudadano\"",
+                  "articulo": "Las dos historias de El Ciudadano",
                   "autor": "Richard Aiello",
                   "pagina": "6",
-		  "pelicula": "El ciudadano (1941)"
+		              "pelicula": "El ciudadano (1941)"
                 },
                  {
-                  "articulo": "\"Vicisitudes, tenacidad y homenaje: Otelo desde la perspectiva de Welles\"",
+                  "articulo": "Vicisitudes, tenacidad y homenaje: Otelo desde la perspectiva de Welles",
                   "autor": "Milagros Arla",
                   "pagina": "11",
-		  "pelicula": "Otelo (1951)"
+		             "pelicula": "Otelo (1951)"
                 },
                 {
-                  "articulo": "\"Mentira la verdad\"",
+                  "articulo": "Mentira la verdad",
                   "autor": "Gabriel Cabrejas",
                   "pagina": "15",
-		  "pelicula": "Con F de falso (1973)"
+		              "pelicula": "Con F de falso (1973)"
                 },
                 {
-                  "articulo": "\"¿Henrianismo o Falstaffianismo? El Rey vs Falstaff - Campanadas de medianoche\"",
+                  "articulo": "¿Henrianismo o Falstaffianismo? El Rey vs Falstaff - Campanadas de medianoche",
                   "autor": "Franco Denápole",
                   "pagina": "21",
-		  "pelicula": "Falstaff - Campanadas de medianoche (1965)"
+		              "pelicula": "Falstaff - Campanadas de medianoche (1965)"
                 },
                  {
-                  "articulo": "\"Del texto teatral al filme y del filme hacia adelante\"",
+                  "articulo": "Del texto teatral al filme y del filme hacia adelante",
                   "autor": "Franco Denápole",
                   "pagina": "25",
-		  "pelicula": "Macbeth (1948)"
+		              "pelicula": "Macbeth (1948)"
                 },
                 {
-                  "articulo": "\"Demasiado cierto para ser verdad. Acerca de Too much Johnson\"",
+                  "articulo": "Demasiado cierto para ser verdad. Acerca de Too much Johnson",
                   "autor": "Mauricio Espil",
                   "pagina": "30",
-		  "pelicula": "Too Much Johnson (1938)"
+		              "pelicula": "Too Much Johnson (1938)"
                 },
                 {
-                  "articulo": "\"Un mundo nuevo se impone\"",
+                  "articulo": "Un mundo nuevo se impone",
                   "autor": "Mex Faliero",
                   "pagina": "36",
-		  "pelicula": "Soberbia (1942)"
+		              "pelicula": "Soberbia (1942)"
                 },
                 {
-                  "articulo": "\"La clausura del film noir\"",
+                  "articulo": "La clausura del film noir",
                   "autor": "Mex Faliero",
                   "pagina": "40",
-		  "pelicula": "Sed de Mal (1958)"
+		              "pelicula": "Sed de Mal (1958)"
                 },
                  {
-                  "articulo": "\"Orson Welles al otro lado del streaming\"",
+                  "articulo": "Orson Welles al otro lado del streaming",
                   "autor": "Flavia Mertehikian",
                   "pagina": "45",
-		  "pelicula": "Al otro lado del viento (2018)"
+		              "pelicula": "Al otro lado del viento (2018)"
                 },
                  {
-                  "articulo": "\"A nazi Welles on the loose\"",
+                  "articulo": "A nazi Welles on the loose",
                   "autor": "Florencia Montenegro",
                   "pagina": "49",
-		  "pelicula": "El extranjero (1946)"
+		              "pelicula": "El extranjero (1946)"
                 },
- 		{
-                  "articulo": "\"De la Macao decimonónica a la Patagonia argentina del siglo XXI: Una historia inmortal de Orson Welles\"",
+ 		            {
+                  "articulo": "De la Macao decimonónica a la Patagonia argentina del siglo XXI: Una historia inmortal de Orson Welles",
                   "autor": "Emilia Oriana Pozzoni",
                   "pagina": "53",
-		  "pelicula": "Una historia inmortal (1968)"
+		              "pelicula": "Una historia inmortal (1968)"
                 },
- 		{
-                  "articulo": "\"El truco del avión sin pasajeros\"",
+ 	            	{
+                  "articulo": "El truco del avión sin pasajeros",
                   "autor": "Rodrigo Martín Seijas",
                   "pagina": "57",
-		  "pelicula": "Raíces en el fango (1955)"
+		              "pelicula": "Raíces en el fango (1955)"
                 },
- 		{
-                  "articulo": "\"Un americano en la historia francesa\"",
+ 		            {
+                  "articulo": "Un americano en la historia francesa",
                   "autor": "Laura Valeria Cozzo",
                   "pagina": "61",
 		              "pelicula": "",

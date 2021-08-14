@@ -2,7 +2,7 @@ import React from "react";
 import Head from 'next/head';
 import path from 'path';
 import fs from "fs";
-import NumeroThumb from "../../comps/numero_thumb.js";
+import NumerosGrid from "../../components/numerosGrid.js";
 import router from "next/router";
 const max_num_archivo = 8;
 
@@ -20,7 +20,7 @@ function Archivo({contents, slug, cant_paginas}) {
         <div className="contenedor-archivo">
           <h1>ARCHIVO</h1>
           <div className="grilla-contenido archivo">
-            { contents.map(elem => <NumeroThumb info={elem} hover={true} size="medium" />) }
+            { contents.map(elem => <NumerosGrid info={elem} hover={true} size="medium" />) }
           </div>
           <p> PÁGINA {slug} de {cant_paginas}</p>
           <div className="paginas_router">

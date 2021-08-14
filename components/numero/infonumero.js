@@ -8,15 +8,17 @@ const InfoNumero = ({contents}) =>{
  //hooks
   const [valueModal, setValueModal] = useState(false);
   const handleModal = () =>{setValueModal(!valueModal)}
+  const [loading, setLoading] = useState(null)
+  const handleLoading = () =>{setLoading(!loading)}
  //parse data
   let parsedInfo = JSON.parse(contents);
- //function to open download.
  const formatoPeli = (art, peli,esp) =>{
-                const nombre_art = (art === ""? art : art + " - ")
+                const nombre_art = (art === ""? art : '"'+ art + '"' + " - ")
                 return <div>{nombre_art}<em>{peli || esp}</em></div>
   }
+  //function to open download.
   const descargaPDF = () =>{
-   return window.open('https://drive.google.com/uc?export=download&id='+parsedInfo.id_google.pdf, '_blank');
+   return window.open(parsedInfo.dropbox_pdf + "?dl=1", '_blank');
   }
   const indices = parsedInfo.articulos.map(item => (
                   <div className="container-articulo">
@@ -30,7 +32,7 @@ const InfoNumero = ({contents}) =>{
               <div className="container-izquierda">
                 <p>NÚMERO {parsedInfo.numero}</p>
                 <div className="container-contenido">
-                  <Imagen_numero num={parsedInfo.numero} img={parsedInfo.id_google.img} hover={false} />
+                  <Imagen_numero num={parsedInfo.numero} hover={false} />
                   <div className="container-botones">
                       <button type="button" className="boton" onClick={descargaPDF}>Descargar</button>
                       <button type="button" className="boton" id="boton-modal" onClick={handleModal}>Ver online</button>
@@ -44,12 +46,14 @@ const InfoNumero = ({contents}) =>{
                 </div>
               </div>
             </div>
-            <Modal isOpen={valueModal} onRequestClose={handleModal}
-             className="Modal" overlayClassName="OverlayModal">
-            <iframe style= { {display:"block"}} 
-                            src={"https://drive.google.com/file/d/"+ parsedInfo.id_google.pdf +"/preview"}
+            <Modal isOpen={valueModal} onRequestClose={() => {handleModal(); handleLoading();}}
+             className="Modal " overlayClassName="OverlayModal">
+              { !loading ? <div><p>Cargando...</p></div> : null} 
+            <iframe style= { {display:loading ? "block" : "none"}} 
+                            src={parsedInfo.dropbox_pdf + "?raw=1"}
                             width="640"
-                            height="590"></iframe>
+                            height="590"
+                            onLoad={() => handleLoading()}></iframe>
             </Modal>
           </>
 }

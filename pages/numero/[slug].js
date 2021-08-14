@@ -2,7 +2,7 @@ import React from "react";
 import Head from 'next/head';
 import fs from "fs";
 import path from 'path';
-import InfoNumero from '../../comps/infonumero.js';
+import InfoNumero from '../../components/numero/infonumero';
 
 const Numero = ({contents}) => {
     let parsedInfo = JSON.parse(contents);

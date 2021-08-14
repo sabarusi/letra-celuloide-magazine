@@ -82,7 +82,17 @@
         transform: translate(-50%, -50%);
         inset: unset;
         padding:10px;
-    
+        background:none;
+        color:white;
+        font-family:"Bebas Neue";
+        margin:auto;
+    }
+    .Modal >div{
+        position:absolute;
+        top: 50%!important;
+        left: 50%!important;
+        margin-right:-50%;
+        transform: translate(-50%, -50%);
     }
     .OverlayModal{
         position:fixed;

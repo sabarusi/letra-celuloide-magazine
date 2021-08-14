@@ -1,10 +1,7 @@
 {
   "numero": "1",
   "fecha":"Noviembre 2007",
-  "id_google":{
-               "img":"1ToZkDhEF0HvsbbyCJvGRZrBb7CCVApiz",
-               "pdf":"1TsrhQ494OM8JK3WuH4FUhTOs2Ax9gkhc" 
-              },
+  "dropbox_pdf": "https://www.dropbox.com/s/v0a7rtl0st4og7o/N%C3%BAmero%201%20-%20Revista%20Letraceluloide.pdf",
   "articulos":[
                 {
                     "articulo": "",
@@ -14,7 +11,7 @@
 		  
                 },
                 {
-                  "articulo": "\"Música para dos miradas\"",
+                  "articulo": "Música para dos miradas",
                   "autor": "Rosalía Baltar",
                   "pagina": "7",
 		              "pelicula":"Tröllflöjten (1975)"
@@ -38,7 +35,7 @@
 		              "pelicula": "La pianiste (2001)"
                 },
                 {
-                  "articulo": "\"El pianista: una teoría sobre la vanguardia\"",
+                  "articulo": "El pianista: una teoría sobre la vanguardia",
                   "autor": "Marta B. Ferrari",
                   "pagina": "19",
 		              "pelicula": "El pianista (1998)"
