@@ -1,0 +1,56 @@
+{
+  "numero": "5",
+  "fecha":"Julio 2008",
+  "dropbox_pdf":"https://www.dropbox.com/s/k4oflfos19f78cs/N%C3%BAmero%205%20-%20Revista%20Letraceluloide.pdf",
+  "articulos": [
+  {
+    "articulo": "",
+    "autor": "Adriana A. Bocchino",
+    "pagina": 4,
+    "pelicula": "El jefe (1958)",
+    "especial": ""
+  },
+  {
+    "articulo": "Las cosas en su lugar. Dos versiones de 'El americano impasible'",
+    "autor": "Víctor Conenna",
+    "pagina": 8,
+    "pelicula": "El americano tranquilo (1958) y El americano (2002)",
+    "especial": ""
+  },
+  {
+    "articulo": "La historia es la misma",
+    "autor": "Carlos F. Hudson",
+    "pagina": 11,
+    "pelicula": "Adiós a las armas (1932)",
+    "especial": ""
+  },
+  {
+    "articulo": "Un buda muy cristiano",
+    "autor": "Darío Lavia",
+    "pagina": 14,
+    "pelicula": "Prem Sanyas (La luz de asia) (1925)",
+    "especial": ""
+  },
+  {
+    "articulo": "Rara avis",
+    "autor": "Julio Neveleff",
+    "pagina": 17,
+    "pelicula": "20.000 leguas de viaje submarino (1954)",
+    "especial": ""
+  },
+  {
+    "articulo": "Un portal al Siglo de Oro",
+    "autor": "Mayra Ortiz Rodríguez",
+    "pagina": 20,
+    "pelicula": "Alatriste (2006)",
+    "especial": ""
+  },
+  {
+    "articulo": "Un futuro distópico",
+    "autor": "Pablo Salido",
+    "pagina": 24,
+    "pelicula": "Blade Runner (1982)",
+    "especial": ""
+  }
+]
+}
