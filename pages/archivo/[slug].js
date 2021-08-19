@@ -34,8 +34,7 @@ function Archivo({contents, slug, cant_paginas}) {
 }
 function getNumberPages(length, max){
   const coeficiente = length / max;
-  const cantidad = Math.round(coeficiente) < coeficiente ? Math.round(coeficiente) +1 : coeficiente;
-  return cantidad;
+  return Math.ceil(coeficiente)
 }
 export const getStaticPaths = async () => {
     const files = fs.readdirSync('numeros');
@@ -50,8 +49,6 @@ export const getStaticPaths = async () => {
 export const getStaticProps = async ( { params: {slug} } ) => {
   const files = fs.readdirSync('numeros')
   const files_innum = files.map(f => parseInt(f.replace('.json',''))).sort((a,b)=>a-b);
-  //sort no es una solución demasiado escalable, pero dado que aún no se reeditaron todos los números
-  //es quizás la manera más conveniente de trabajar por ahora siendo pocos datos
   const coeficiente = max_num_archivo *( slug - 1); //Coeficiente para después calcular los números segun la página
   const arr_archivo = files_innum.slice(coeficiente, coeficiente + max_num_archivo)
   const contents = arr_archivo.map(filename => (fs.readFileSync(path.join('numeros', filename + ".json")).toString()));
