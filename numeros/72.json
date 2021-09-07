@@ -1,19 +1,16 @@
 {
   "numero": "72",
   "fecha":"Agosto 2020",
-  "id_google":{
-                "img":"16OlR_enclD_ABHeLrtUbcVxZRcBdzseS",
-                "pdf":"1M9EyphGtPKDiebHXNAvyaIJYfP4EpxeG"
-              },
+  "dropbox_pdf":"https://www.dropbox.com/s/oemtm22xmqrrefo/N%C3%BAmero%2072%20-%20Revista%20Letraceluloide.pdf",
   "articulos":[
                 {
-                  "articulo": "\"Mujercitas: El sí de las niñas\"",
+                  "articulo": "Mujercitas: El sí de las niñas",
                   "autor": "Gabriel Cabrejas",
                   "pagina": "4",
 		             "pelicula": "Little Women (2019)"
                 },
                 {
-                  "articulo": "\"Es la historia de un amor como no hay otro igual...\"",
+                  "articulo": "Es la historia de un amor como no hay otro igual...",
                   "autor": "Laura Valeria Cozzo",
                   "pagina": "10",
 		              "pelicula": "L’Éternel Retour (1943)"
@@ -25,7 +22,7 @@
 		              "pelicula": "Quién mató a Walter Benjamin (2005)"
                 },
                 {
-                  "articulo" : "\"Sé mi víctima. Algunos apuntes en torno a Candyman\"",
+                  "articulo" : "Sé mi víctima. Algunos apuntes en torno a Candyman",
                   "autor": "Marcos Ojea",
                   "pagina": "16",
 		              "pelicula": "Candyman (1992)"

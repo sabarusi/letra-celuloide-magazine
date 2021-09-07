@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import path from 'path';
 import fs from "fs";
-import NumeroThumb from "../comps/numero_thumb.js"
+import NumerosGrid from "../components/numerosGrid.js"
 
 export default function Home({contents}) {
   return (
@@ -14,7 +14,7 @@ export default function Home({contents}) {
         <script src="/newsform.js" ></script>
       </Head>
       <div className="grilla-contenido">
-        { contents.map(elem => <NumeroThumb info={elem} />) }
+        { contents.map(elem => <NumerosGrid info={elem} />) }
       </div>
     </div>
         )

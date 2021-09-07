@@ -1,10 +1,7 @@
 {
   "numero": "3",
   "fecha":"Marzo 2008",
-  "id_google":{
-                "img":"1vTR2djj2qUKsz-KzvtFuA9fRhCN34_0m",
-                "pdf":"1egWu1hZ7TEJEoUaFz0U6ApMbov2DIfsw"
-              },
+  "dropbox_pdf":"https://www.dropbox.com/s/0tti7ud4a85sqez/N%C3%BAmero%203%20-%20Revista%20Letraceluloide.pdf",
   "articulos":[
                 {
                   "articulo": "",
@@ -25,7 +22,7 @@
 		              "pelicula": "Le Mépris (1963)"
                 },
                 {
-                  "articulo": "\"Beowulf, o el conflicto de la traducción\"",
+                  "articulo": "Beowulf, o el conflicto de la traducción",
                   "autor": "Juan Ariel Gómez",
                   "pagina": "13",
 		              "pelicula": "Beowulf (2007)"
@@ -37,7 +34,7 @@
 		              "pelicula": "Raskolnikow (1923)"
                 },
                 {
-                  "articulo": "\"El mal está adentro: Psicosis\"",
+                  "articulo": "El mal está adentro: Psicosis",
                   "autor": "Daniel Nimes",
                   "pagina": "19",
 		              "pelicula": "Pyscho (1960)"

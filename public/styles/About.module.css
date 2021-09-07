@@ -4,27 +4,29 @@
     font-size:1.2rem;
     font-family:"Open Sans";
     max-width:100%;
+    padding-bottom:20px;
 }
 .desktop_container{
     display:flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items:center;
+    gap:5em;
     padding-left:40px;
     padding-right:40px;
 }
 .desc{
     display:block;
     text-align:justify;
-    max-width:70%;
+    /* TEXT BELOW 1300px*/
+    max-width:75%;
 }
-.mobile_logo{
-    display:flex;
-    max-width:max-content;
-    border-radius:50%;
+.desc p:first-child{
+    margin-top:10px;
 }
-.mobile_logo img{
-    width:15vw;
+.desktop_img{
+    display:none
 }
+
 .mobile_text{
     display:none;
 }
@@ -32,10 +34,29 @@ main{
     padding-top:10px;
 }
 
-@media screen and (max-width:720px){
+/*MEDIA QUERY FOR IMAGE AND TEXT IN ABOUT*/
+@media screen and (min-width:1300px){
+    .desktop_img{
+        display:flex;
+        max-width:max-content;
+    }
+    .desktop_img img{
+        width:max(22rem,12vw);
+    }
+    .desc{
+        max-width:55%;
+    }
+}
+@media screen and (max-width:760px){
     .desktop_container{
         padding-left:0px;
         padding-right:0px;
+    }
+    .desktop_container{
+        flex-direction:column;
+    }
+    .desc{
+        max-width:90%;
     }
     .mobile_text{
         display:block;
@@ -47,17 +68,12 @@ main{
     .mobile_text h1{
         display:none;
     }
-    .mobile_logo{
-        display:none;
-    }
-    .desc{
-        max-width:90%;
-    }
 }
 
 @media screen and (max-width:500px){
     .mobile_text h1{
         font-family:"Bebas Neue"!important;
         font-size: 2.5rem;
+        display:block;
     }
 }

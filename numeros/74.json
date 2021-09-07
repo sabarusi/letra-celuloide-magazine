@@ -1,43 +1,40 @@
 {
   "numero": "74",
   "fecha":"Marzo 2021",
-  "id_google":{
-                "img":"13mzqofN4hSRxAE8ehhyaZzxcQaS1zafv",
-                "pdf":"1lRtp5d0OdxGc_BV-eXdR_VR-xvPz5uvC"
-              },
+  "dropbox_pdf":"https://www.dropbox.com/s/5ixjozu9pff039i/N%C3%BAmero%2074%20-%20Revista%20Letraceluloide.pdf",
   "articulos":[
                 {
-                  "articulo": "\"'El tiempo construye y destruye': es genial\"",
+                  "articulo": "'El tiempo construye y destruye': es genial",
                   "autor": "Laura Valeria Cozzo",
                   "pagina": "5",
 		              "pelicula": "El tiempo perdido (2020)"
                 },
                 { 
-                  "articulo": "\"Epopeya fantástica por América Latina\"",
+                  "articulo": "Epopeya fantástica por América Latina",
                   "autor": "Franco Denápole",
                   "pagina": "8",
 		              "pelicula": "El viaje (1992)"
                 },
                 {
-                  "articulo": "\"La Xtabay en la frontera\"",
+                  "articulo": "La Xtabay en la frontera",
                   "autor": "Amaranta Gallego",
                   "pagina": "11",
 		              "pelicula": "Selva trágica (2020)"
                 },
                 {
-                  "articulo": "\"Arqueología del silencio\"",
+                  "articulo": "Arqueología del silencio",
                   "autor": "Martín Haczek",
                   "pagina": "15",
 	 	              "pelicula": "Río Turbio (2020)"
                 },
                 {
-                  "articulo": "\"Apuntes para un diálogo en torno a No existen 36 maneras de mostrar cómo un hombre se sube a un caballo de Nicolás Zukerfeld\"",
+                  "articulo": "Apuntes para un diálogo en torno a No existen 36 maneras de mostrar cómo un hombre se sube a un caballo de Nicolás Zukerfeld",
                   "autor": "Martín Haczek y Rodrigo Montenegro",
                   "pagina": "20",
 		              "pelicula": "No existen treinta y seis maneras de mostrar cómo un hombre se sube a un caballo (2020)"
                 },
                 {
-                  "articulo": "\"La eternidad en un sobre ilumina la pantalla\"",
+                  "articulo": "La eternidad en un sobre ilumina la pantalla",
                   "autor": "Flavia Mertehikian",
                   "pagina": "26",
 		              "pelicula": "Cortázar y Antín: Cartas iluminadas (2018)"
@@ -60,7 +57,7 @@
 		              "pelicula": "Sophie Jones (2020)"
                 },
                 {
-                  "articulo": "\"Teddy: revisitando la licantropía en clave contemporánea\"",
+                  "articulo": "Teddy: revisitando la licantropía en clave contemporánea",
                   "autor": "Emilia Oriana Pozzoni",
                   "pagina": "39",
 		              "pelicula": "Teddy (2020)"
